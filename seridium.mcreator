@@ -23,7 +23,7 @@
   "workspaceSettings": {
     "modid": "seridium",
     "modName": "Seridium",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -34,6 +34,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "fr.hyridiumdev.seridium",
     "lockBaseModFiles": false
   },
