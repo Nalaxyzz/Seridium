@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "seridium:block/seridium_block"
+    }
+  }
+}

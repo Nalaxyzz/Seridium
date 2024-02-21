@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seridium:blocks/serdium_block",
+    "up": "seridium:blocks/serdium_block",
+    "north": "seridium:blocks/serdium_block",
+    "east": "seridium:blocks/serdium_block",
+    "south": "seridium:blocks/serdium_block",
+    "west": "seridium:blocks/serdium_block",
+    "particle": "seridium:blocks/serdium_block"
+  }
+}
