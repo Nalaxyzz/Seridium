@@ -37,15 +37,6 @@
       "path": "~/Item"
     },
     {
-      "name": "Smelt",
-      "type": "enchantment",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "smelt",
-      "path": "~/enchantement"
-    },
-    {
       "name": "Smeltprocedure",
       "type": "procedure",
       "sortid": 6,
@@ -54,10 +45,6 @@
       "registry_name": "smeltprocedure",
       "metadata": {
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -86,8 +73,7 @@
       "item.seridium.smelt_pickaxe_seridium": "Smelt Pickaxe Seridium",
       "block.seridium.seridium_block": "Seridium Block",
       "itemGroup.tabseridiumtab": "Seridium",
-      "item.seridium.prisma": "Prisma",
-      "enchantment.seridium.smelt": "Smelt"
+      "item.seridium.prisma": "Prisma"
     }
   },
   "foldersRoot": {
@@ -118,7 +104,7 @@
   "workspaceSettings": {
     "modid": "seridium",
     "modName": "Seridium",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
