@@ -15,7 +15,7 @@ public class SmeltEnchantment extends SeridiumModElements.ModElement {
 	public static final Enchantment enchantment = null;
 
 	public SmeltEnchantment(SeridiumModElements instance) {
-		super(instance, 3);
+		super(instance, 5);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class SmeltEnchantment extends SeridiumModElements.ModElement {
 
 	public static class CustomEnchantment extends Enchantment {
 		public CustomEnchantment(EquipmentSlotType... slots) {
-			super(Enchantment.Rarity.COMMON, EnchantmentType.DIGGER, slots);
+			super(Enchantment.Rarity.VERY_RARE, EnchantmentType.DIGGER, slots);
 		}
 
 		@Override

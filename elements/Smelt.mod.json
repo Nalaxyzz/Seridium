@@ -4,7 +4,7 @@
   "definition": {
     "name": "Smelt",
     "type": "DIGGER",
-    "rarity": "COMMON",
+    "rarity": "VERY_RARE",
     "minLevel": 1,
     "maxLevel": 1,
     "damageModifier": 0,

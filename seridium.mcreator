@@ -28,21 +28,30 @@
       "path": "~/Item"
     },
     {
-      "name": "Smelt",
-      "type": "enchantment",
-      "sortid": 3,
+      "name": "SmeltPickaxeSeridium",
+      "type": "tool",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "smelt",
+      "registry_name": "smelt_pickaxe_seridium",
       "path": "~/Item"
     },
     {
-      "name": "Test",
-      "type": "procedure",
-      "sortid": 3,
+      "name": "Smelt",
+      "type": "enchantment",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test",
+      "registry_name": "smelt",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Smeltprocedure",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltprocedure",
       "metadata": {
         "dependencies": [
           {
@@ -67,16 +76,7 @@
           }
         ]
       },
-      "path": "~/Item"
-    },
-    {
-      "name": "SmeltPickaxeSeridium",
-      "type": "tool",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "smelt_pickaxe_seridium",
-      "path": "~/Item"
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [],
@@ -118,7 +118,7 @@
   "workspaceSettings": {
     "modid": "seridium",
     "modName": "Seridium",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Nalaxyzz, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

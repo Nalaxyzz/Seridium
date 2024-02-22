@@ -23,7 +23,7 @@ import java.util.HashMap;
 import fr.hyridiumdev.seridium.enchantment.SmeltEnchantment;
 import fr.hyridiumdev.seridium.SeridiumMod;
 
-public class TestProcedure {
+public class SmeltprocedureProcedure {
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
@@ -49,27 +49,27 @@ public class TestProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				SeridiumMod.LOGGER.warn("Failed to load dependency world for procedure Test!");
+				SeridiumMod.LOGGER.warn("Failed to load dependency world for procedure Smeltprocedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				SeridiumMod.LOGGER.warn("Failed to load dependency x for procedure Test!");
+				SeridiumMod.LOGGER.warn("Failed to load dependency x for procedure Smeltprocedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				SeridiumMod.LOGGER.warn("Failed to load dependency y for procedure Test!");
+				SeridiumMod.LOGGER.warn("Failed to load dependency y for procedure Smeltprocedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				SeridiumMod.LOGGER.warn("Failed to load dependency z for procedure Test!");
+				SeridiumMod.LOGGER.warn("Failed to load dependency z for procedure Smeltprocedure!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				SeridiumMod.LOGGER.warn("Failed to load dependency entity for procedure Test!");
+				SeridiumMod.LOGGER.warn("Failed to load dependency entity for procedure Smeltprocedure!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");

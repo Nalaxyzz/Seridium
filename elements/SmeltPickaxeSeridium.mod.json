@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "seridium_pickaxe",
+    "texture": "seridium_pickaxe_smelt",
     "customModelName": "Normal",
     "name": "Smelt Pickaxe Seridium",
     "specialInfo": [],
@@ -24,7 +24,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onBlockDestroyedWithTool": {
-      "name": "Test"
+      "name": "Smeltprocedure"
     }
   }
 }

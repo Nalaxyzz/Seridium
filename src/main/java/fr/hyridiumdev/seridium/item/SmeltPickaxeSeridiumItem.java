@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import fr.hyridiumdev.seridium.procedures.TestProcedure;
+import fr.hyridiumdev.seridium.procedures.SmeltprocedureProcedure;
 import fr.hyridiumdev.seridium.itemgroup.SeridiumtabItemGroup;
 import fr.hyridiumdev.seridium.SeridiumModElements;
 
@@ -65,8 +65,10 @@ public class SmeltPickaxeSeridiumItem extends SeridiumModElements.ModElement {
 				int y = pos.getY();
 				int z = pos.getZ();
 
-				TestProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-						new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+				SmeltprocedureProcedure.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
+								new AbstractMap.SimpleEntry<>("entity", entity))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
